@@ -1,0 +1,13 @@
+[submodule "fire"]
+	path = fire
+	url = git@github.com:prushh/fire.git
+[submodule "utils/how"]
+	path = utils/how
+	url = https://github.com/prushh/how
+[submodule "utils/asmk"]
+	path = utils/asmk
+	url = https://github.com/prushh/asmk
+[submodule "utils/cnnimageretrieval-pytorch"]
+	path = utils/cnnimageretrieval-pytorch
+	url = git@github.com:prushh/cnnimageretrieval-pytorch.git
+	branch = tested-with-fire
