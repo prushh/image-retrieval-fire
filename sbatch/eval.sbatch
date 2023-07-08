@@ -14,4 +14,4 @@ export PYTHONPATH=${PYTHONPATH}:/public.hpc/davide.pruscini/image-retrieval-fire
 export PYTHONPATH=${PYTHONPATH}:/public.hpc/davide.pruscini/image-retrieval-fire/utils/cnnimageretrieval-pytorch
 export PYTHONPATH=${PYTHONPATH}:/public.hpc/davide.pruscini/vision-env/utils/asmk
 
-python3 fire/evaluate.py fire/eval_fire.yml
+python3 fire/evaluate.py fire/eval_fire.yml -e eval_default
