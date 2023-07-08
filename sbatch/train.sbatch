@@ -8,7 +8,7 @@
 #SBATCH --output=train-default.txt
 #SBATCH --gres=gpu:1
 
-. venv/bin/activate
+. ../venv/bin/activate
 
 export PYTHONPATH=${PYTHONPATH}:/public.hpc/davide.pruscini/image-retrieval-fire/utils/how
 export PYTHONPATH=${PYTHONPATH}:/public.hpc/davide.pruscini/image-retrieval-fire/utils/cnnimageretrieval-pytorch
