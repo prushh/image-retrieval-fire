@@ -12,6 +12,6 @@
 
 export PYTHONPATH=${PYTHONPATH}:/public.hpc/davide.pruscini/image-retrieval-fire/utils/how
 export PYTHONPATH=${PYTHONPATH}:/public.hpc/davide.pruscini/image-retrieval-fire/utils/cnnimageretrieval-pytorch
-export PYTHONPATH=${PYTHONPATH}:/public.hpc/davide.pruscini/vision-env/utils/asmk
+export PYTHONPATH=${PYTHONPATH}:/public.hpc/davide.pruscini/image-retrieval-fire/utils/asmk
 
 python3 fire/train.py fire/train_fire.yml -e train_default
