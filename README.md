@@ -86,3 +86,7 @@ We therefore tried the following two configurations, starting with the [pretrain
 2. Reduce the number of hard negative images inside the tuple from 5 to 3
    - The model sample tuples composed of one query image, one positive image and 5 hard negatives
    - By studying _Appendix A.2_ of the FIRe [paper](https://doi.org/10.48550/arXiv.2201.13182), we gained insights into the impact of hard negatives on performance, and how reducing the number of hard negatives per training tuple does not excessively reduce performance
+
+## License
+
+The code is distributed under the MIT License. See [LICENSE](https://github.com/prushh/image-retrieval-fire/blob/main/LICENSE) for more information. It is based on code from FIRe, HOW, cirtorch and ASMK that are released under their own license.
