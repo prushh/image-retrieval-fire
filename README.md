@@ -63,7 +63,7 @@ python3 fire/train.py fire/train_fire.yml -e <name_expriment_folder>
 python3 fire/evaluate.py fire/eval_fire.yml -e <name_expriment_folder> -ml <name_expriment_folder>
 ```
 
-For more details, see the [README.md](https://github.com/prushh/fire/blob/main/README.MD) file of the FIRe repository.
+For more details, see the [README.md](https://github.com/prushh/fire/blob/main/README.MD) of the FIRe repository.
 
 ## Task
 
