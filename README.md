@@ -54,13 +54,13 @@ Note that all necessary datasets are automatically downloaded during the first e
 #### Training
 
 ```bash
-python3 fire/train.py fire/train_fire.yml -e <name_expriment_folder>
+python3 fire/train.py fire/train_fire.yml -e <train_experiment_folder>
 ```
 
 #### Evaluation
 
 ```bash
-python3 fire/evaluate.py fire/eval_fire.yml -e <name_expriment_folder> -ml <name_expriment_folder>
+python3 fire/evaluate.py fire/eval_fire.yml -e <eval_experiment_folder> -ml <train_experiment_folder>
 ```
 
 For more details, see the [README.md](https://github.com/prushh/fire/blob/main/README.MD) of the FIRe repository.
